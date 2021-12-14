@@ -5,7 +5,7 @@
 %define keepstatic 1
 Name     : fakechroot
 Version  : 2.20.1
-Release  : 302
+Release  : 501
 URL      : file:///aot/build/clearlinux/packages/fakechroot/fakechroot-v2.20.1.tar.gz
 Source0  : file:///aot/build/clearlinux/packages/fakechroot/fakechroot-v2.20.1.tar.gz
 Summary  : No detailed summary available
@@ -125,7 +125,7 @@ unset https_proxy
 unset no_proxy
 export SSL_CERT_FILE=/var/cache/ca-certs/anchors/ca-certificates.crt
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639123070
+export SOURCE_DATE_EPOCH=1639493514
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -213,7 +213,7 @@ make  %{?_smp_mflags}    V=1 VERBOSE=1
 
 
 %install
-export SOURCE_DATE_EPOCH=1639123070
+export SOURCE_DATE_EPOCH=1639493514
 rm -rf %{buildroot}
 %make_install
 
