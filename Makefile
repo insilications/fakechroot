@@ -1,5 +1,5 @@
 PKG_NAME := fakechroot
-URL = https://github.com/dex4er/fakechroot.git
+URL = /insilications/build/git-clr/fakechroot-clr
 ARCHIVES = 
 ARCHIVES_GIT = 
 

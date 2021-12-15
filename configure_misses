@@ -1,9 +1,18 @@
 Configure miss: __opendir2
+Configure miss: __opendir2
+Configure miss: _xftw
 Configure miss: _xftw
 Configure miss: _xftw64
+Configure miss: _xftw64
+Configure miss: audit_log_acct_message
 Configure miss: audit_log_acct_message
 Configure miss: revoke
+Configure miss: revoke
+Configure miss: struct _ftsent.fts_fts
 Configure miss: struct _ftsent.fts_fts
 Configure miss: whether opendir function calls __open function internally
+Configure miss: whether opendir function calls __open function internally
 Configure miss: whether opendir function calls __opendir2 function internally
+Configure miss: whether opendir function calls __opendir2 function internally
+Configure miss: whether type of struct _ftsent.fts_name is char *
 Configure miss: whether type of struct _ftsent.fts_name is char *
